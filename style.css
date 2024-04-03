@@ -1,0 +1,2210 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300;400&family=Montserrat&display=swap");
+.Container{
+    width: 100%;
+    overflow: hidden;
+}
+
+header{
+    display: flex;
+    width: 93%;
+    margin: auto;
+    gap: 5rem;
+    align-items: center;
+    justify-content: center;
+}
+nav{
+    display: flex;
+    margin: auto;
+    gap: 5rem;
+
+}
+li{
+    list-style: none;
+
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 420;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #20262A;
+
+}
+
+.login-button{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 40px;
+    text-align: center;
+    color: #00aaff;
+    background-color: white;
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 700;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+
+}
+
+.login-button:hover {
+        background-color: #00aaff;
+        color: #ffffff;
+}
+.toggle{
+    display: none;
+}
+
+.LightningText h1{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 72px;
+font-weight: 600;
+line-height: 78px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+width: 70%;
+margin: auto;
+margin-top: 10rem;
+margin-bottom: 3rem;
+color: #112D57;
+
+
+}
+.LightningText{
+    text-align: center;
+    margin: auto;
+    width: 93%;
+    
+
+}
+.LightningText p{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #5C5C5C;
+    width: 50%;
+    margin: auto;
+    margin-top: 3rem;
+
+}
+
+.mobileP{
+    display: none;
+}
+
+.startedtry{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 93%;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: 4rem;
+    gap: 25px;
+}
+
+
+
+
+.started-button{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    color: white;
+    background-color: #00aaff;
+    
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+
+
+}
+
+.started-button:hover {
+        background-color:  #ffffff;
+        color: #00aaff;
+}
+
+.free-button{
+    border: 2px solid white;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    color: #20262A;
+    background-color: white;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.free-button:hover {
+        background-color:  #00aaff;
+        color: white;
+}
+
+.LightningContainer{
+    background-image: url('images/confettishapes.png');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    padding-bottom: 25rem;
+    
+   
+}
+.navandcontainer {
+    background: linear-gradient(to bottom, white, #ccf0fc, white);
+  
+}
+
+
+
+ 
+ .screen{
+    margin: auto;
+    text-align: center;
+    
+    justify-content: center;
+    position: relative;
+    margin-top: -30rem;
+ }
+ .navigateContainer{
+    margin: auto;
+    width: 93%;
+    text-align: center;
+    margin-top: 7rem;
+ }
+.navigateContainer h2{
+   
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 36px;
+font-weight: 450;
+line-height: 42px;
+letter-spacing: 0.10000000149011612px;
+color: #F3CD03;
+text-align: center;
+
+
+
+}
+
+.navigateContainer h1{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #20262A;
+}
+
+
+.navigateContainer p{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 24px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #5C5C5C;
+width: 40%;
+justify-content: center;
+align-items: center;
+margin: auto;
+
+
+}
+
+.downloadbuttons{
+    display: flex;
+    margin: auto;
+    gap: 13px;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.downloadbutton1{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    color: white;
+    background-color: #00aaff;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.downloadbutton1:hover {
+        background-color:  white;
+        color: #00aaff;
+}
+
+.downloadbutton2{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    color: #00aaff;
+    background-color: white;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.downloadbutton2:hover {
+        background-color:  #00aaff;
+        color: white;
+}
+.featuresContainer{
+    width: 100%;
+}
+
+.featuresContainer2{
+    display: none;
+}
+
+.features1{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 6rem;
+    
+}
+.features1text{
+    width: 40%;
+    justify-content: center;
+    margin-left: 7rem;
+    
+   
+  
+
+}
+.featuresimage1{
+    width: 60%;
+    text-align: right;
+    
+    
+}
+
+
+
+
+.features1text h3{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #20262A;
+}
+.features1text p{
+  
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 26px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 95%;
+color: #5C5C5C;
+
+}
+
+.features1text h5{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 18px;
+font-weight: 450;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #00B6F0;
+
+}
+
+.features2{
+    display: flex;
+    margin: auto;
+    align-items: center;
+    margin-top: 6rem;
+    
+}
+
+
+    
+
+.features2text{
+    width: 50%;
+    justify-content: center;
+    margin-left: 7rem;
+   
+  
+
+}
+.features2image{
+    width: 50%;
+    text-align: right;
+}
+
+
+.features2text h3{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.10000000149011612px;
+    text-align: left;
+    color: #20262A;
+}
+.features2text p{
+  
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 26px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+width: 80%;
+color: #5C5C5C;
+
+}
+
+.features2text h5{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 450;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #00B6F0;
+
+}
+.rethink{
+    margin: auto;
+    text-align: center;
+    margin-top: 8rem;
+}
+
+.rethink2{
+    display: none;
+}
+
+.rethink h1{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.20000000298023224px;
+color: #20262A;
+
+}
+
+.rethink p{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 19px;
+    font-weight: 450;
+    line-height: 30px;
+    letter-spacing: 0.20000000298023224px;
+    color: #5C5C5C;
+    margin-bottom: 7rem;
+}
+.thinkimage1{
+    margin-bottom: 3rem;
+}
+
+.thinkimage2nd{
+    display: none;
+}
+
+.think2{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 50px;
+    text-align: center;
+    color: white;
+    background-color: #00aaff;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.think2:hover {
+        background-color:  white;
+        color: #00aaff;
+}
+.rethinkimage{
+    margin-bottom: 15rem;
+}
+
+.testimonials{
+    margin: auto;
+    text-align: center;
+  
+    
+}
+
+.testimonials2nd{
+    display: none;
+}
+
+.testicover2nd{
+    display: none;
+}
+
+.testimonials h3{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 36px;
+font-weight: 450;
+line-height: 42px;
+letter-spacing: 0.10000000149011612px;
+color: #20262A;
+margin-bottom: 4rem;
+}
+
+.ibmpic{
+    margin-bottom: 4rem;
+}
+
+.testimonials p{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 16px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #5C5C5C;
+width: 35%;
+margin: auto;
+margin-bottom: 4rem;
+}
+
+.esther{
+    text-align: center;
+    
+    display: flex;
+    justify-content: center;
+}
+
+.esthertext{
+    margin-left: 1rem;
+   
+}
+
+.esthertext p{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 14px;
+    font-weight: 500;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #20262A;
+    width: 100%;
+}
+.designer{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 12px;
+font-weight: 450;
+line-height: 28px;
+letter-spacing: 0.5px;
+text-align: left;
+color: #5C5C5C;
+margin-top: -4rem;
+}
+
+.testibutton{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    color: white;
+    background-color: #00aaff;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin: auto;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.testimonialsbutton{
+    margin-top: 3rem;
+}
+.testibutton:hover {
+    background-color: white;
+    color: #00aaff;
+
+}
+
+.testicover{
+    
+    margin-top: -10rem;
+    margin-right: -6rem;
+}
+
+.testicover img{
+    width: 80%;
+    margin-top: 7rem;
+    margin-right: -5.3rem;
+}
+
+.testi1{
+    position: relative;
+    margin-bottom: -45rem;
+}
+.pricingcontainer{
+    background-color: #182333;
+    padding: 5rem 0rem;
+    position: relative;
+    margin-top: -0.2rem;
+}
+.pricingflexbox{
+    display: flex;
+    width: 70%;
+    margin: auto;
+    
+}
+.pricing{
+    width: 70%;
+}
+
+.pricing h2{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+.pricing2nd{
+    display: none;
+}
+
+.pricing p{
+    width: 66%;
+   
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 19px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #FFFFFF;
+
+}
+
+
+
+
+.trial{
+    width: 30%;
+}
+
+.trial h6{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 450;
+    line-height: 28px;
+    letter-spacing: 0.2;
+    text-align: left;
+    color: white;
+}
+
+.dollar{
+    display: flex;
+    margin-top: -1rem;
+    gap: 0.7rem;
+}
+.figure{
+    
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 72px;
+font-weight: 900;
+line-height: 78px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #F3CD03;
+
+}
+
+.month{
+    
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 22px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: white;
+width: 40%;
+
+}
+.trial p{
+   
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 19px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: white;
+}
+
+.trialbtn{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    color: white;
+    background-color: #00aaff;
+    border-radius: 20px;
+    padding: 10px 35px;
+    margin: auto;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.trialbutton{
+    margin-top: 3rem;
+}
+.trialbtn:hover {
+    background-color: white;
+    color: #00aaff;
+
+}
+
+.focus {
+    background: linear-gradient(to bottom , #daedf4, rgba(255, 255, 255, 0));
+    margin-top: -2.98rem;
+}
+
+
+
+.focusflex{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 5rem;
+    text-align: center;
+    margin-top: 3rem;
+    
+}
+
+.focushead{
+    margin-top: 3rem;
+
+}
+
+.focushead h4{
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 36px;
+font-weight: 450;
+line-height: 42px;
+letter-spacing: 0.10000000149011612px;
+text-align: left;
+color: #20262A;
+
+
+}
+
+.focusparagraph{
+    margin-top: 5rem;
+}
+
+.focusparagraph p{
+
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: #5C5C5C;
+width: 60%;
+}
+
+.focusbutton{
+    text-align: left;
+    margin-top: 3rem;
+}
+
+.focusbtn{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 12px 40px;
+    text-align: left;
+    color: white;
+    background-color: #00aaff;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+.focusbtn:hover {
+    background-color: white;
+    color: #00aaff;
+
+}
+
+
+.footerflex{
+    display: flex;
+    width: 90%;
+    margin: auto;
+    gap: 9rem;
+    text-align: center;
+    margin-top: 8rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+.footerpic{
+    text-align: left;
+    gap: 1rem;
+}
+
+
+.footerlogo p{
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 450;
+line-height: 28px;
+letter-spacing: 0.10000000149011612px;
+color: #5C5C5C;
+margin-top: -0.2rem;
+
+}
+
+.footernav{
+    display: flex;
+    gap: 3rem;
+}
+
+.footernav li{
+   
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 18px;
+    font-weight: 450;
+    line-height: 20px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: left;
+    color: #20262A;
+    
+}
+
+.footersocials{
+    display: flex;
+    gap: 3rem;
+    align-items: flex-start;
+}
+
+@media screen and (max-width: 1440px) {
+    .LightningText h1{
+     font-size: 85px;
+    font-weight: 700;
+    width: 50%;
+   
+    
+    
+    }
+    
+    .LightningText p{
+        font-size: 32px;
+        font-weight: 500;
+        width: 55%;
+    }
+
+    
+    .testicover img{
+        width: 80%;
+        margin-top: 7rem;
+        margin-right: -7.1rem;
+    }
+
+    .pricingcontainer{
+        margin-top: -0.4rem;
+    }
+    
+
+}
+
+
+@media screen and (max-width: 1024px) {
+    .LightningText h1{
+        font-size: 72px;
+    font-weight: 600;
+    width: 70%;
+    }
+    
+    .LightningText p{
+        font-size: 24px;
+        font-weight: 450;
+        width: 60%;
+    }
+    
+     .screen img{
+        width: 100%;
+     }
+
+     .navigateContainer p{
+    width: 50%;
+    }
+
+
+  
+    .features1text{
+        width: 40%;
+        margin-left: 3rem;
+    }
+    .featuresimage1{
+        width: 60%;
+    }
+    
+    .featuresimage1 img{
+        width: 100%;
+    }
+    
+    
+    .features1text h3{
+       font-size: 33px;
+        font-weight: 450;
+        
+    }
+    .features1text p{
+      
+    font-size: 21px;
+    font-weight: 450;
+    width: 100%;
+    
+    }
+    
+    .features1text h5{
+    font-size: 15px;
+    font-weight: 450;
+   
+    }
+
+    .features2text{
+        width: 40%;
+        margin-left: 2rem;
+    }
+    .features2image{
+        width: 60%;
+    }
+    
+    .features2image img{
+        width: 100%;
+    }
+    
+    
+    .features2text h3{
+       font-size: 33px;
+        font-weight: 450;
+        
+    }
+    .features2text p{
+      
+    font-size: 23px;
+    font-weight: 450;
+    width: 95%;
+    
+    }
+    
+    .features2text h5{
+    font-size: 15px;
+    font-weight: 450;
+   
+    }
+
+    .testimonials p{
+   font-size: 16px;
+    font-weight: 450;
+    width: 45%;
+    
+    }
+
+
+    .esthertext p{
+     font-size: 12px;
+        font-weight: 600;
+        width: 100%;
+    }
+    .designer{
+     font-size: 12px;
+    font-weight: 450;
+    margin-top: -4rem;
+    }
+
+
+    .testicover{
+    
+        margin-top: -10rem;
+        margin-right: -6rem;
+    }
+    
+    .testicover img{
+        width: 80%;
+        margin-top: 12rem;
+        margin-right: -1.8rem;
+    }
+
+    .pricingflexbox{
+        display: flex;
+        width: 85%;
+        margin: auto;
+        align-items: flex-start;
+        
+    }
+
+    
+.month{
+   font-size: 20px;
+    }
+
+    .focusflex{
+        width: 90%;
+        gap: 3rem;
+        margin-top: 3rem;   
+    }
+
+    .focusparagraph p{
+        font-size: 15px;
+        font-weight: 400;
+        width: 75%;
+        }
+    
+        .focusparagraph{
+            width: 55%;
+        }
+
+        .focushead{
+        width: 45%;
+        }
+       
+
+        .footerflex{
+            gap: 4rem;
+        }
+        
+        
+        .footerlogo p{
+            font-size: 15px;
+        }
+        
+        .footernav{
+            gap: 2rem;
+        }
+        
+        .footernav li{
+            font-size: 15px;
+        }
+        
+        .footersocials{
+            gap: 3rem;
+        }
+        
+        
+}
+
+
+@media screen and (max-width: 900px) {
+
+
+nav{
+    display:none;
+}
+
+.logo img{
+ margin-left: 3rem;
+}
+
+.toggle{
+    display: block;
+}
+.login{
+    margin-left: 16rem;
+}
+
+.LightningText p{
+    font-size: 21px;
+    width: 60%;
+}
+.startedtry{
+    margin-left: -8rem;
+}
+
+.navigateContainer p{
+    font-size: 21px;
+width: 50%;
+}
+
+.features1text{
+    width: 48%;
+    margin-left: 3rem;
+}
+.featuresimage1{
+    width: 52%;
+}
+
+.features1text h3{
+    font-size: 33px;
+    font-weight: 400;
+}
+.features1text p{
+font-size: 20px;
+font-weight: 400;
+width: 90%;
+}
+
+.features2text{
+    width: 48%;
+    margin-left: 3rem;
+}
+.features2image{
+    width: 52%;
+}
+
+.features2text h3{
+    font-size: 33px;
+    font-weight: 400;
+}
+.features2text p{
+font-size: 20px;
+font-weight: 400;
+width: 85%;
+}
+
+.thinkimage1 img{
+   width: 70%;
+}
+
+.testicover img{
+    margin-top: 18rem;
+    margin-right: -0.3rem;
+}
+
+.pricing h2{
+font-size: 52px;
+font-weight: 700;
+}
+
+.pricing p{
+    width: 66%;
+font-size: 15px;
+font-weight: 450;
+}
+
+.trial h6{
+    font-size: 13px;
+    font-weight: 450;
+}
+
+.figure{
+font-size: 68px;
+font-weight: 900;
+}
+
+.month{
+font-size: 18px;
+font-weight: 450;
+width: 40%;
+
+}
+.trial p{
+ font-size: 16px;
+font-weight: 450;
+}
+
+.focushead h4{
+    width: 100%;
+}
+
+.focusparagraph{
+    width: 45%;
+}
+
+.focushead{
+width: 55%;
+}
+
+.focusparagraph p{
+    width: 100%;
+}
+
+.footerflex{
+    gap: 4rem;
+    width: 100%;
+}
+
+
+.footerlogo p{
+    font-size: 13px;
+}
+
+.footernav{
+    gap: 1.5rem;
+}
+
+.footernav li{
+    font-size: 13px;
+}
+
+.footersocials{
+    gap: 2rem;
+}
+
+}
+
+ @media screen and (max-width: 650px){
+
+    header{
+        margin: auto;
+        gap: 1rem;
+    }
+
+
+
+    .login-button{
+    text-align: center;
+    margin-left: -10rem;
+    }
+
+    .logo{
+        margin-left: -5rem;
+    }
+
+
+    .LightningContainer{
+        background-image: url('images/confettishapes2.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 35rem;
+        padding-top: 3rem;
+    }
+
+    
+.LightningText h1{
+font-size: 60px;
+margin-top: 6rem;
+margin-bottom: 3rem;
+}
+
+
+.LightningText p{
+    display: none;
+}
+.mobileP{
+    display: block;
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 450;
+    line-height: 38px;
+    letter-spacing: 0.20000000298023224px;
+    text-align: center;
+    color: #5C5C5C;
+    width: 55%;
+    margin: auto;
+    margin-top: rem;
+}
+
+.startedtry{
+    display: flex;
+    margin: auto;
+    text-align: center;
+    width: 93%;
+    justify-content: center;
+    margin-top: 8rem;
+    margin-bottom: -2rem;
+    gap: 2rem;
+}
+
+
+
+.started-button{
+padding: 15px 55px;
+font-size: 18px;
+font-weight: 600;
+}
+
+
+
+.free-button{
+    padding: 15px 55px;
+    font-size: 18px;
+font-weight: 600;
+}
+
+
+.navigateContainer h1{
+font-size: 56px;
+font-weight: 700;
+width:60%;
+text-align: center;
+margin: auto;
+justify-content: center;
+align-items: center;
+margin-bottom: 2rem;
+}
+
+
+.navigateContainer p{
+    font-size: 24px;
+font-weight: 450;
+text-align: center;
+width: 55%;
+justify-content: center;
+align-items: center;
+margin: auto;
+}
+
+.downloadbuttons{
+    display: inline-block;
+    margin: auto;
+    gap: 3rem;
+    text-align: center;
+    justify-content: center;
+    margin-top: 5rem;
+
+}
+
+.downloadbutton1{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 97px;
+    text-align: center;
+    color: white;
+    background-color: #00aaff;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+
+}
+
+
+.downloadbutton2{
+    border: 2px solid #00aaff;
+    text-decoration: none;
+    border-radius: 25px;
+    padding: 15px 70px;
+    text-align: center;
+    color: #00aaff;
+    background-color: white;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 500;
+line-height: 20px;
+letter-spacing: 0.2px;
+}
+
+.first{
+    width: 100%;
+    margin-bottom: 3rem;
+}
+.featuresContainer{
+    display: none;
+}
+
+.featuresContainer2{
+    display: inline-block;
+}
+
+.secfeatures1{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+    
+}
+.secfeatures1text{
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    
+    
+   
+  
+
+}
+.secfeaturesimage1 img{
+    width: 100%;
+    text-align: left;
+}
+
+
+
+
+.secfeatures1text h3{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.10000000149011612px;
+    color: #20262A;
+}
+.secfeatures1text p{
+  
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 26px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+width: 95%;
+color: #5C5C5C;
+
+}
+
+.secfeatures1text h5{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 18px;
+font-weight: 450;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #00B6F0;
+
+}
+
+.secfeatures2{
+    margin: auto;
+    align-items: center;
+    text-align: center;
+    margin-top: 6rem;
+}
+
+
+    
+
+.secfeatures2text{
+    width: 75%;
+    justify-content: center;
+    text-align: center;
+    margin: auto;
+   
+  
+
+}
+.secfeatures2image img{
+    width: 100%;
+    text-align: right;
+}
+
+
+.secfeatures2text h3{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 36px;
+    font-weight: 450;
+    line-height: 42px;
+    letter-spacing: 0.10000000149011612px;
+    width: 60%;
+    color: #20262A;
+    text-align: center;
+    margin: auto;
+    margin-bottom: 1rem;
+}
+.secfeatures2text p{
+  
+    font-family: 'Circular Std', Arial, sans-serif;
+
+font-size: 26px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+width: 80%;
+color: #5C5C5C;
+text-align: center;
+margin: auto;
+
+}
+
+.secfeatures2text h5{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 450;
+line-height: 20px;
+letter-spacing: 0.20000000298023224px;
+color: #00B6F0;
+
+}
+
+
+.rethink2{
+    display: inline-block;
+}
+
+.rethink1{
+    display: none;
+}
+
+.rethink p{
+    font-size: 23px;
+    font-weight: 450;
+    width: 60%;
+}
+.thinkimage2nd{
+    margin-bottom: 3rem;
+}
+
+.thinkimage1{
+    display: none;
+}
+
+.thinkimage2nd{
+display: inline-block;
+}
+
+.testimonials2nd{
+    display: inline-block;
+}
+
+.testicover2nd{
+    display: inline-block;
+}
+
+.testimonialsfirst{
+    display: none;
+}
+
+
+.testicover{
+    display: none;
+}
+
+.testicover2nd{
+    width: 100%;
+    margin-top: -3rem;
+}
+
+.testicover2nd img{
+    width: 100%;
+    margin-top: rem;
+}
+
+.pricing1st{
+   display: none;
+}
+
+.pricing2nd{
+    display: inline-block;
+}
+
+.pricingflexbox{
+    display: block;
+    width: 100%;
+    margin: auto;
+    text-align: center;
+    
+}
+
+.pricing{
+    width: 100%;
+}
+
+.pricing h2{
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 56px;
+font-weight: 700;
+line-height: 65px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+
+}
+
+
+.pricing p{
+    width: 60%;
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 19px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #FFFFFF;
+margin-top: -1rem;
+
+}
+
+
+
+
+.trial{
+    width: 30%;
+    text-align: center;
+    margin: auto;
+}
+
+.trial h6{
+    
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 25px;
+    font-weight: 500;
+    line-height: 28px;
+    letter-spacing: 0.2;
+    text-align: center;
+    margin: auto;
+    margin: 2rem 2rem;
+    color: white;
+   width: 80%;
+}
+
+.dollar{
+    display: flex;
+    margin-top: -1rem;
+    text-align: center;
+    margin: auto;
+    gap: -1rem;
+}
+.figure{
+    
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 72px;
+font-weight: 900;
+line-height: 78px;
+letter-spacing: 0.20000000298023224px;
+/* text-align: center; */
+color: #F3CD03;
+margin: auto;
+margin-right: -rem;
+
+}
+
+.month{
+    
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 22px;
+font-weight: 450;
+line-height: 38px;
+letter-spacing: 0.20000000298023224px;
+text-align: left;
+color: white;
+margin: auto;
+width: 50%;
+}
+
+
+
+.trial p{
+   
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 19px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: white;
+}
+
+
+.focusflex{
+    display: block;
+    width: 80%;
+    margin: auto;
+    gap: 5rem;
+    text-align: center;
+    margin-top: 10rem;
+    margin: auto;
+    
+}
+
+.focushead{
+    padding-top: 5rem;
+    width: 100%;
+
+}
+
+.focushead h4{
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 50px;
+font-weight: 500;
+line-height: 60px;
+letter-spacing: 0.10000000149011612px;
+text-align: center;
+color: #20262A;
+margin: auto;
+width: 60%;
+}
+
+.focusparagraph{
+    margin-top: 5rem;
+    width: 100%;
+    
+}
+
+.focusparagraph p{
+
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 18px;
+font-weight: 450;
+line-height: 30px;
+letter-spacing: 0.20000000298023224px;
+text-align: center;
+color: #5C5C5C;
+width: 80%;
+margin: auto;
+margin-bottom: 4rem;
+}
+
+
+.focusbutton{
+    text-align: center;
+    margin-top: 3rem;
+}
+
+.footerflex{
+    display: block;
+    width: 90%;
+    margin: auto;
+    gap: 9rem;
+    text-align: center;
+    margin-top: 8rem;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+
+.footerpic{
+    text-align: center;
+    gap: 1rem;
+}
+
+
+.footerlogo p{
+font-size: 22px;
+margin-bottom: 5rem;
+}
+
+.footernav{
+    display: block;
+    text-align: center;
+    gap: 3rem;
+}
+
+.footernav li{
+   
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 25px;
+    text-align: center;
+    color: #20262A;
+    margin-bottom: 3rem;
+    
+}
+
+.footersocials{
+    display: flex;
+    gap: 3rem;
+    padding-top: 5rem;
+    text-align: center;
+    justify-content: center;
+    margin: auto;
+    width: 100%;
+}
+
+ }
+
+
+ 
+ @media screen and (max-width: 580px){
+
+    .LightningContainer{
+        background-image: url('images/confettishapes2.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 35rem;
+        padding-top: 2rem;
+        
+       
+    }
+
+    
+.LightningText h1{
+font-size: 55px;
+}
+
+
+
+.mobileP{
+    font-size: 24px;
+    font-weight: 450;
+    width: 65%;
+}
+
+.startedtry{
+    margin-top: 5rem;
+}
+
+
+.navigateContainer h1{
+    width: 70%;
+    }
+    
+    .navigateContainer p{
+    width: 60%;
+    }
+    
+    .downloadbutton1{
+        padding: 15px 117px;
+    }
+    
+    .downloadbutton2{
+        padding: 15px 90px;
+    }
+
+    .secfeatures2text p{
+        width: 85%;
+    }
+
+    .rethink p{
+        width: 70%;
+    }
+
+    .testicover2nd{
+        margin-top: 3rem;
+    }
+    
+    .testi11 p {
+        width: 60%;
+    }
+
+    .pricing p{
+        width: 63%;
+    }
+
+    .trial h6{
+       width: 90%;
+    }
+
+    .figure{
+        font-size: 68px;
+    }
+    
+    .month{
+    font-size: 16px;
+    width: 100%;
+    }
+    
+    .trial p{
+       font-size: 18px;
+    width: 100%;
+    }
+
+
+    .focushead h4{
+        width: 70%;
+        }
+        
+        .focusparagraph p{
+        width: 90%;
+        }
+
+ }
+
+ 
+ @media screen and (max-width: 414px){
+    header{
+        width: 100%;
+        margin: auto;
+        gap: 2rem;
+    }
+
+    .login-button{
+        
+        margin-left: 0rem;
+    }
+
+    .login{
+        margin-left: 0rem;
+        
+    }
+
+    .logo{
+        margin-right: 5rem;
+        width: 100%;
+        margin: auto;
+    }
+    .logo img{
+        margin-left: 0rem
+    }
+
+    .toggle{
+        margin-left: -2rem;
+    }
+
+    .LightningText{
+        margin-top: -20rem;
+    }
+
+    .LightningContainer{
+        background-image: url('images/confettishapes2.png');
+        background-repeat: no-repeat;
+        background-size: 100%;
+        padding-bottom: 35rem;
+        padding-top: 20rem;
+        margin-top: 3rem;
+    }
+
+    .LightningContainer{
+        width: 100%;
+    }
+
+    
+.LightningText h1{
+font-size: 50px;
+margin-top: 3rem;
+margin-bottom: 1rem;
+width: 100%;
+}
+
+
+.LightningText p{
+    display: none;
+}
+.mobileP{
+    width: 75%;
+    font-size: 20px;
+
+}
+
+.startedtry{
+    margin-top: 3rem;
+    margin-bottom: -2rem;
+    gap: 1rem;
+}
+
+
+
+.started-button{
+padding: 12px 20px;
+}
+
+
+
+.free-button{
+    padding: 12px 20px;
+}
+
+
+.screen{
+    margin-top: -31rem;
+ }
+
+ .navigateContainer h1{
+    font-size: 53px;
+    width: 90%;
+    margin-bottom: 1rem;
+    }
+    
+    
+    .navigateContainer p{
+        font-size: 22px;
+    width: 80%;
+    }
+
+    .secfeatures1text p{
+    font-size: 20px;
+    width: 100%;
+    }
+
+    .secfeatures2text p{
+        font-size: 20px;
+        width: 90%;
+        }
+
+        .rethink p{
+            width: 75%;
+            font-size: 18px;
+            margin-top: -1rem;
+            margin-bottom: 3rem;
+        }
+
+        .testicover2nd{
+            margin-top: 13rem;
+        }
+        
+        .testi11 p {
+            width: 80%;
+        }
+
+
+        .pricing p{
+            width: 90%;
+        }
+    
+
+        .trial{
+            width: 50%;
+        }
+
+        .trial h6{
+            font-size: 20px;
+            text-align: center;
+            width: 60%;
+        }
+    
+        .figure{
+            font-size: 68px;
+        }
+        
+        .month{
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        }
+
+        .dollar{
+            margin-top: -1rem;
+            gap: 0rem;
+            width: 90%;
+        }
+        
+        .trial p{
+           font-size: 18px;
+        width: 100%;
+        }
+
+
+        .focushead h4{
+            width: 100%;
+            }
+            
+            .focusparagraph p{
+            width: 100%;
+            }
+
+ }
+
+ @media screen and (max-width: 390px) {
+    header{
+        width: 100%;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .login-button{
+        border: 1px solid #00aaff;
+        padding: 10px 30px;
+    text-align: left;
+    margin-left: -5rem;
+    }
+
+    .login{
+        padding-left: -5rem;
+        
+    }
+
+    .logo{
+        margin-right: 5rem;
+        width: 80%;
+        margin: auto;
+    }
+    .logo img{
+        margin-left: 0rem
+    }
+
+    .toggle{
+        margin-left: -1rem;
+    }
+
+
+    .toggle img{
+        margin-left: 0.5rem;
+    }
+
+    .mobileP{
+        width: 80%;
+        font-size: 18px;
+    
+    }
+
+    .navigateContainer p{
+        font-size: 22px;
+    width: 90%;
+    }
+
+    .secfeatures2text p{
+        font-size: 20px;
+        width: 100%;
+        }
+
+        .rethink p{
+            width: 90%;
+            font-size: 18px;
+        }
+
+        .testicover2nd{
+            margin-top: 16rem;
+        }
+        
+        
+        .pricing p{
+            width: 80%;
+            font-size: 15px;
+        }
+    
+
+        .trial{
+            width: 60%;
+        }
+
+        .trial h6{
+            font-size: 25px;
+            text-align: center;
+            width: 65%;
+        }
+    
+        .figure{
+            font-size: 68px;
+        }
+        
+        .month{
+        font-size: 20px;
+        width: 100%;
+        margin: auto;
+        text-align: center;
+        display: flex;
+        }
+
+        .dollar{
+            margin-top: -1rem;
+            gap: 0rem;
+            width: 70%;
+        }
+        
+        .trial p{
+           font-size: 18px;
+        width: 100%;
+        }
+    
+
+ }
+
+ @media screen and (max-width: 375px) {
+    header{
+        width: 100%;
+        margin: auto;
+        gap: 1rem;
+    }
+
+    .login-button{
+        border: 1px solid #00aaff;
+        padding: 10px 30px;
+    text-align: left;
+    margin-left: -5rem;
+    }
+
+    .login{
+        padding-left: -5rem;
+        
+    }
+
+    .logo{
+        margin-right: 5rem;
+        width: 80%;
+        margin: auto;
+    }
+    .logo img{
+        margin-left: 0rem
+    }
+
+    .toggle{
+        margin-left: -1rem;
+    }
+
+
+    .toggle img{
+        margin-left: 0.5rem;
+    }
+
+    .mobileP{
+        width: 80%;
+        font-size: 17px;
+       
+    }
+    .navigateContainer h1{
+        font-size: 53px;
+        width: 95%;
+        margin-bottom: 1rem;
+        }
+
+        .testicover2nd{
+            margin-top: 17rem;
+        }
+
+        .pricing p{
+            width: 80%;
+            font-size: 15px;
+        }
+    
+
+        .trial{
+            width: 60%;
+        }
+
+        .trial h6{
+            font-size: 25px;
+            text-align: center;
+            width: 70%;
+        }
+        .month{
+            font-size: 20px;
+            width: 100%;
+            margin: auto;
+            text-align: center;
+            display: flex;
+            }
+    
+            .dollar{
+                margin-top: -1rem;
+                gap: 0rem;
+                width: 80%;
+            }
+            
+            .trial p{
+               font-size: 18px;
+            width: 100%;
+            }
+ }
