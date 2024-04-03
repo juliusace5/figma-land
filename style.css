@@ -1191,6 +1191,22 @@ width: 55%;
 
 }
 
+@media screen and (max-width: 844px){
+    .login{
+        margin-left: 10rem;
+    }
+}
+
+@media screen and (max-width: 812px){
+
+}
+
+
+@media screen and (max-width: 740px){
+
+}
+
+
  @media screen and (max-width: 650px){
 
     header{
