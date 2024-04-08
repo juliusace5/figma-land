@@ -2,7 +2,8 @@
 
 body{
     background-color: #002E48;
-    width: 1200px;
+    width: 1000px;
+    overflow: hidden;
 /* height: 1080px;
 top: -3494px;
 left: 770px;
@@ -12,21 +13,25 @@ opacity: 0px; */
 }
 
 .container{
-    background-color: #063E5E;
+    /* background-color: #063E5E; */
     width: 80%;
     margin: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 20rem 0;
+    margin: 6rem 8rem;
    
 }
 .content{
-    width: 80%;
+    background-color: #12344f;
+    width: 850px;
     margin: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
+    border: 2px solid #002E48;
+    border-radius: 25px 0 0 25px;
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.3);
 }
 
 .login{
@@ -34,61 +39,168 @@ opacity: 0px; */
     
 }
 
-.discover{}
+.discover img{
+    width: 100%;
+}
 
-/* .content{
+.discover{
+    width: 40%;
+    text-align: right;
+   
+}
+
+.log{
     width: 60%;
-
+    text-align: center;
 }
 
+.loginheader h3{
+font-family: 'Circular Std', Arial, sans-serif;
+font-size: 40px;
+font-weight: 700;
+line-height: 61.62px;
+text-align: left;
+color: white;
+margin: auto;
 
-
-.container{
-    background-color: #002E48;
+}
+.loginheader {
+    text-align: center;
+    margin: auto;
+    margin:  3rem 0 1rem 6.5rem ;
 }
 
-
-.input-field {
-    padding: 10px 40px 10px 30px;
+/* .input-field {
+    padding: 10px 40px 10px 30px; 
     margin-bottom: 10px;
     border: 2px solid #ffffff;
     border-radius: 25px;
     background-color: #ffffff;
     color: #00507C;
-    width: 100%; 
-    box-sizing: border-box; 
-}
-
-.input-container {
-    position: relative;
-    width: 100%; 
-}
-.formcontainer{
     width: 60%;
+    box-sizing: border-box;
+    position: relative; 
 }
 
 .icon {
     position: absolute;
-    left: 10px; 
+    left: 10px;
     top: 50%;
     transform: translateY(-50%);
-    color: #555; 
-}
-.discover {
-    background-image: url(images/loginbacknew.png) ;
-    background-size: 100%; 
-    background-repeat: no-repeat; 
-    background-position: center; 
-
-    width: 40%;
-    height: 800px;
-}
-
-.login{
-    display: flex;
-    width: 60%;
-}
-.log{
-    background-color: #00507C33;
+    color: #555;
 } */
+
+.input-container {
+    position: relative;
+    margin-bottom: 10px;
+}
+
+.input-field {
+    padding: 10px 40px 10px 30px; /* Adjust padding accordingly */
+    border: 2px solid #ffffff;
+    border-radius: 25px;
+    background-color: #ffffff;
+    color: #00507C;
+    width: 60%;
+    box-sizing: border-box;
+}
+
+.icon {
+    position: absolute;
+    left: 7rem;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #1852F2;
+}
+
+.input-field::placeholder {
+    color: #00507C; 
+}
+
+
+
+.btnn{
+    margin-top: 2rem;
+    margin-bottom: 2rem;
+}
+
+
+
+
+.acctbtn{
+    border: 2px solid #1852F2;
+    background-color: #1852F2;
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    padding: 10px 15px;
+    font-size: 10px;
+}
+
+input[type="checkbox"] {
+    display: none;
+}
+
+.custom-checkbox{
+    
+        width: 10px;
+        height: 10px;
+        background-color: #fff;
+        border: 2px solid #999;
+        border-radius: 50%; /* Makes it round */
+        cursor: pointer;
+        display: inline-block;
+        vertical-align: middle; /* Align with the text */
+        margin-right: 10px; /* Add some space between the checkbox and the label */
+    
+}
+
+input[type="checkbox"]:checked + .custom-checkbox {
+    background-color: black;
+}
+
+  .checkbox-label{
+    font-family: 'Circular Std', Arial, sans-serif;
+    font-size: 12px;
+    font-weight: 500;
+    line-height: 23.7px;
+    text-align: left;
+    color: white;
+    display: flex;
+    gap: 0.3rem;
+  }
+  
+
+  .check{
+    display: flex;
+    align-items: center;
+    margin-left: 6.5rem;
+    margin-top: 1rem;
+  }
+  .terms{
+    color: #ff6600;
+  }
+    
+
+.already{
+    display: flex;
+    gap: 0.3rem;
+    margin-left: 11rem;
+    font-family: 'Circular Std', Arial, sans-serif;
+font-size: 13px;
+font-weight: 500;
+line-height: 23.7px;
+color: #ffffff;
+
+}
+
+.sign{
+    color:#ff6600 ;
+}
+
+
+
+
+
+
 
