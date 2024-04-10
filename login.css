@@ -2,24 +2,16 @@
 
 body{
     background-color: #002E48;
-    width: 1000px;
-    overflow: hidden;
-/* height: 1080px;
-top: -3494px;
-left: 770px;
-gap: 0px;
-opacity: 0px; */
-
+    
 }
 
 .container{
-    /* background-color: #063E5E; */
     width: 80%;
     margin: auto;
     text-align: center;
     justify-content: center;
     align-items: center;
-    margin: 6rem 8rem;
+    margin: 6rem 5rem;
    
 }
 .content{
@@ -36,7 +28,6 @@ opacity: 0px; */
 
 .login{
     display: flex;
-    
 }
 
 .discover img{
@@ -62,33 +53,14 @@ line-height: 61.62px;
 text-align: left;
 color: white;
 margin: auto;
-
 }
+
 .loginheader {
     text-align: center;
     margin: auto;
     margin:  3rem 0 1rem 6.5rem ;
 }
 
-/* .input-field {
-    padding: 10px 40px 10px 30px; 
-    margin-bottom: 10px;
-    border: 2px solid #ffffff;
-    border-radius: 25px;
-    background-color: #ffffff;
-    color: #00507C;
-    width: 60%;
-    box-sizing: border-box;
-    position: relative; 
-}
-
-.icon {
-    position: absolute;
-    left: 10px;
-    top: 50%;
-    transform: translateY(-50%);
-    color: #555;
-} */
 
 .input-container {
     position: relative;
@@ -96,7 +68,7 @@ margin: auto;
 }
 
 .input-field {
-    padding: 10px 40px 10px 30px; /* Adjust padding accordingly */
+    padding: 10px 40px 10px 30px; 
     border: 2px solid #ffffff;
     border-radius: 25px;
     background-color: #ffffff;
@@ -147,12 +119,11 @@ input[type="checkbox"] {
         height: 10px;
         background-color: #fff;
         border: 2px solid #999;
-        border-radius: 50%; /* Makes it round */
+        border-radius: 50%;
         cursor: pointer;
         display: inline-block;
-        vertical-align: middle; /* Align with the text */
-        margin-right: 10px; /* Add some space between the checkbox and the label */
-    
+        vertical-align: middle; 
+        margin-right: 10px;  
 }
 
 input[type="checkbox"]:checked + .custom-checkbox {
@@ -198,9 +169,190 @@ color: #ffffff;
     color:#ff6600 ;
 }
 
+.cont1{
+    display: none;
+}
+
+@media screen and (max-width: 1440px) {
+    
+}
 
 
+@media screen and (max-width: 1024px) {
+    .container{
+        width: 80%;
+       margin: 6rem 5rem;
+    }
+    
+}
 
 
+@media screen and (max-width: 900px) {
+    .content{
+        width: 650px;
+    }
+  
+    .input-field {
+        width: 70%;
+    }
 
+    .loginheader h3{
+        font-size: 30px;        
+        }
+        .loginheader {
+            margin:  1rem 0 0rem 4rem ;
+        }
+
+        .icon {
+            left: 4.5rem;
+        }
+
+    .check{
+        margin-left: 3.3rem;
+      }
+
+      .already{
+        margin-left: 7rem;
+        margin-top: -1rem;
+    }
+}
+
+@media screen and (max-width: 650px) {   
+.container{
+    margin: 6rem 2rem;
+}
+
+.content{
+    width: 550px;
+}
+.input-field {
+    padding: 5px 100px 5px 25px; 
+    width: 60%;
+}
+
+.loginheader h3{
+    font-size: 25px;        
+    }
+    
+    .icon {
+        left: 4.5rem;
+    }
+
+.check{
+    margin-left: 4rem;
+    
+  }
+
+  .checkbox-label{
+    font-size: 8px;
+  }
+
+  .btnn{
+    margin-top: 0.5rem;
+    margin-bottom: 1rem;
+}
+.acctbtn{
+    border-radius: 5px;
+    padding: 8px 12px;
+    font-size: 9px;
+}
+
+  .already{
+    margin-left: 5.5rem;
+    margin-top: 0rem;
+}
+
+
+}
+
+
+@media screen and (max-width: 580px) {
+    .container{
+        margin: 6rem 0rem;
+    }
+}
+
+
+@media screen and (max-width: 390px) {
+
+    .container{
+        margin: 2rem 0.5rem;
+        text-align: center;
+    }
+
+    .content{
+        width: 350px;
+        text-align: center;
+    }
+
+    .login{
+        display: block;
+    }
+
+    .discover img{
+        width: 100%;
+    }
+    
+    .discover{
+        width: 100%;
+        text-align: center;
+    }
+
+    .cont2{
+        display: none;
+    }
+
+    .cont1{
+        display: inline-block;
+    }
+
+    .log{
+        width: 100%;
+        text-align: center;
+    }
+
+    .loginheader h3{
+        font-size: 40px;
+        text-align: center;
+        }
+        
+        .loginheader {
+            text-align: center;
+            margin: auto;
+            margin:  3rem 0 1rem 0rem ;
+        }
+
+        .input-field {
+            padding: 7px 60px 7px 25px;
+            width: 80%;
+        }
+   
+        .icon {
+            left: 2.7rem;
+        }
+        .check{
+            margin-left: 2rem;
+            margin-top: 1rem;
+          }
+        
+          .checkbox-label{
+            font-size: 12px;
+          }
+        
+          .btnn{
+            margin-top: 2rem;
+            margin-bottom: 2rem;
+        }
+        .acctbtn{
+            border-radius: 5px;
+            padding: 10px 15px;
+            font-size: 12px;
+        }
+        
+          .already{
+            margin-left: 5.5rem;
+            margin-top: 0rem;
+            margin-bottom: 2rem;
+        }
+}
 
